@@ -19,3 +19,9 @@ springdoc:
   swagger-ui:
     disable-swagger-default-url: true
     path: /swagger-ui.html
+
+loans:
+  message: "Welcome to EazyBank loans related local APIs "
+  contactDetails:
+    name: "Amaal Grega - Developer"
+    email: "amaal@eazybank.com"
