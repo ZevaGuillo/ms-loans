@@ -23,7 +23,8 @@ spring:
       - "qa"
 
 
-springdoc:
-  swagger-ui:
-    disable-swagger-default-url: true
-    path: /swagger-ui.html
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
